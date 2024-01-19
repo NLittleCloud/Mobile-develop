@@ -1,0 +1,16 @@
+﻿<Application x:Class="Wpf_game.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Wpf_game"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary x:Name="Level1_svg" Source="Images/Lvl1.xaml"/>
+                <ResourceDictionary x:Name="Level2_svg" Source="Images/Lvl2.xaml"/>
+                <ResourceDictionary x:Name="Level3_svg" Source="Images/Lvl3.xaml"/>
+                <ResourceDictionary x:Name="Start_svg" Source="Images/Start.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

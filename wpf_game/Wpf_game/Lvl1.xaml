@@ -1,0 +1,33 @@
+﻿<Page x:Class="Wpf_game.Lvl1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Wpf_game"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="450"
+      Title="Lvl1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="420"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="140"/>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Height="800" Width="450" Source="{StaticResource lvl1_backDrawingImage}" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Image Name="img2" Height="800" Width="450" Source="{StaticResource lvl1_back2DrawingImage}" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Image  Name="person1" Height="130" Width="100" Source="{StaticResource person_1DrawingImage}" Grid.Row="0" Grid.Column="0" Margin="20,39,20,371" Grid.RowSpan="2"/>
+        <StackPanel Grid.Row="1" Grid.Column="2">
+            <Image Height="136" Width="159" Source="{StaticResource lvl1_poly1DrawingImage}"/>
+            <Image  x:Name="poly2" Height="136" Width="159" Source="{StaticResource lvl1_poly2DrawingImage}" MouseDown="a_rightClick"/>
+            <Image Height="136" Width="159" Source="{StaticResource lvl1_poly3DrawingImage}"/>
+        </StackPanel>
+        <Canvas x:Name="canvas" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <Image x:Name="person2" Height="130" Width="100" Source="{StaticResource person_2DrawingImage}" Grid.ColumnSpan="2" Opacity="0" Canvas.Left="72" Canvas.Top="44" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </Canvas>
+    </Grid>
+</Page>

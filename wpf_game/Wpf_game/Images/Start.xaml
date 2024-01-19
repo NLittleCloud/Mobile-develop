@@ -1,0 +1,75 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Geometry x:Key="n_backGeometry1">F1 M750,1334z M0,0z M296.875,554.688L314.844,518.75 425.863,512.891 492.188,356.25 635.938,575 695.312,791.406 629.688,918.75 525,1025.78 288.281,1060.16 74.2188,931.25 50.7812,730.469 175.781,622.656 229.688,642.188 296.875,554.688z</Geometry>
+  <Geometry x:Key="n_backGeometry2">F1 M750,1334z M0,0z M264.063,668.75L297.656,553.906 420.313,580.469 505.469,530.469 425,514.844 518.75,487.5 553.906,449.219 595.312,514.844 661.719,668.75 692.969,790.625 628.906,921.094 530.469,1027.34 289.844,1060.16 97.6563,942.969 53.125,730.469 225.781,640.625 161.719,715.625 264.063,668.75z</Geometry>
+  <Geometry x:Key="n_backGeometry3">F1 M750,1334z M0,0z M173.438,728.125L313.436,745.312 425,615.625 529.688,650 579.843,541.406 670.312,745.312 618.124,877.344 529.688,1025.78 281.25,1062.5 73.4375,938.281 101.562,778.906 173.438,728.125z</Geometry>
+  <Geometry x:Key="n_backGeometry4">F1 M750,1334z M0,0z M121.875,838.281L215.625,902.344 452.344,902.344 587.477,813.965 696.094,789.062 587.477,902.344 536.719,1035.16 286.719,1060.16 240.625,971.875 121.875,957.031 121.875,838.281z</Geometry>
+  <Geometry x:Key="n_backGeometry5">F1 M750,1334z M0,0z M185.156,761.719L209.375,861.719 291.406,906.25 185.156,899.219 126.562,838.281 185.156,761.719z</Geometry>
+  <Geometry x:Key="n_backGeometry6">F1 M750,1334z M0,0z M510.156,921.875L564.844,845.465 590.529,967.34 535.156,1033.59 399.219,1048.44 462.404,982.965 503.125,967.34 510.156,921.875z</Geometry>
+  <Geometry x:Key="n_backGeometry7">F1 M750,1334z M0,0z M154.688,917.969L408.594,885.938 526.562,932.031 750,885.938 750,914.062 735.938,950.781 680.469,985.156 716.406,939.844 608.594,959.375 541.406,937.5 586.719,964.062 490.625,950.781 468.75,967.969 434.375,964.062 441.406,967.969 358.594,962.5 405.469,932.031 325.781,939.062 294.531,932.031 281.641,901.953 260.156,942.969 184.375,939.062 221.094,962.5 178.906,975.781 110.156,942.969 53.9062,932.031 2.34375,900 154.688,917.969z</Geometry>
+  <Geometry x:Key="n_backGeometry8">F1 M750,1334z M0,0z M178.906,975.781L219.531,963.281 178.906,939.062 257.031,942.969 281.25,900 296.094,932.031 327.344,939.062 407.812,932.031 362.5,961.719 464.844,967.969 491.406,950 585.938,963.281 538.281,935.938 609.766,958.594 717.969,939.062 682.031,984.375 630.469,971.875 591.406,982.812 434.375,963.281 451.562,974.219 518.75,989.844 362.5,984.375 294.531,959.375 194.531,996.094 144.531,989.844 92.9688,968.75 47.6562,945.312 32.0312,982.812 2.34375,967.188 -0.78125,996.094 -0.78125,935.938 -0.78125,900 52.3438,925.781 73.4375,935.938 112.5,942.969 178.906,975.781z</Geometry>
+  <Geometry x:Key="n_backGeometry9">F1 M750,1334z M0,0z M3.125,967.969L32.0312,983.594 47.6562,943.75 92.9688,967.969 144.531,989.844 194.531,996.094 293.75,957.812 363.281,983.594 520.312,989.844 451.562,975 432.031,962.5 588.281,981.25 631.25,971.875 681.25,983.594 735.938,949.219 750.781,906.25 750.781,1340.5 -11,1340.5 -3.125,982.031 3.125,967.969z</Geometry>
+  <DrawingGroup x:Key="n_backDrawingGroup" ClipGeometry="M0,0 V1334 H750 V0 H0 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="11" Y="0" />
+    </DrawingGroup.Transform>
+    <DrawingGroup Opacity="1">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,750,1334" />
+      </DrawingGroup.ClipGeometry>
+      <GeometryDrawing>
+        <GeometryDrawing.Brush>
+          <LinearGradientBrush StartPoint="375,0" EndPoint="375,1046.36" MappingMode="Absolute" SpreadMethod="Pad" Opacity="1">
+            <GradientStop Color="#FF4A6E85" Offset="0" />
+            <GradientStop Color="#B27EACC3" Offset="1" />
+            <GradientStop Color="#B2507080" Offset="1" />
+          </LinearGradientBrush>
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,750,1334" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup Opacity="1">
+        <GeometryDrawing Brush="#FFE2E9E7" Geometry="{StaticResource n_backGeometry1}" />
+      </DrawingGroup>
+      <DrawingGroup Opacity="1">
+        <GeometryDrawing Brush="#FFACE0E0" Geometry="{StaticResource n_backGeometry2}" />
+      </DrawingGroup>
+      <GeometryDrawing Brush="#FF9BD3D5" Geometry="{StaticResource n_backGeometry3}" />
+      <DrawingGroup Opacity="1">
+        <GeometryDrawing Brush="#FF9BC4C6" Geometry="{StaticResource n_backGeometry4}" />
+      </DrawingGroup>
+      <DrawingGroup Opacity="1">
+        <GeometryDrawing Brush="#FFACE0E0" Geometry="{StaticResource n_backGeometry5}" />
+      </DrawingGroup>
+      <GeometryDrawing Brush="#FF7AB1B4" Geometry="{StaticResource n_backGeometry6}" />
+      <GeometryDrawing Geometry="{StaticResource n_backGeometry7}">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF00517C" Opacity="0.57" />
+        </GeometryDrawing.Brush>
+      </GeometryDrawing>
+      <DrawingGroup Opacity="1">
+        <GeometryDrawing Geometry="{StaticResource n_backGeometry8}">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF478BB3" Opacity="0.85" />
+          </GeometryDrawing.Brush>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup Opacity="1">
+        <GeometryDrawing Geometry="{StaticResource n_backGeometry9}">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF2C92C7" Opacity="0.71" />
+          </GeometryDrawing.Brush>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+    <GeometryDrawing>
+      <GeometryDrawing.Pen>
+        <Pen Brush="#FF000000" Thickness="1.5625" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+      </GeometryDrawing.Pen>
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0.7812,0.7812,748.438,1332.44" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+  </DrawingGroup>
+  <DrawingImage x:Key="n_backDrawingImage" Drawing="{StaticResource n_backDrawingGroup}" />
+</ResourceDictionary>
